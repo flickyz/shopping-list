@@ -1,0 +1,40 @@
+
+body{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: lightblue; 
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px;
+}
+
+h1{
+  font-family: 'Anton', sans-serif;
+}
+
+
+.content{
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.non-display{
+  display: none;
+}
+li{
+ margin-top: 1.2em;
+}
+li:hover {
+  cursor: pointer;
+}
+
+#note{
+  color: red;
+}
