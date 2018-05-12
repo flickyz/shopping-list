@@ -4,11 +4,12 @@ var ul = document.querySelector("ul");
 var li = document.getElementsByTagName("li");
 var deleteBtn = document.getElementsByClassName("delete");
 
-
+//get input string's length
 function inputLength() {
 	return input.value.length;
 }
 
+//add a new element to the list and empty the input area
 function createListElement() {
 	
 	var liItem = document.createElement("li");
@@ -20,6 +21,7 @@ function createListElement() {
 	input.value = "";
 }
 
+//create a new button for delete the element
 function createDeleteButton() {
 	var deleteButton = document.createElement("button");
 	deleteButton.appendChild(document.createTextNode("Delete"));
